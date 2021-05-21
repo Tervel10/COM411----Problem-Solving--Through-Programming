@@ -30,7 +30,7 @@ class BankAccount:
 class IndividualAccount(BankAccount):
 
   def __init__(self, sort_code, account_number, owner):
-    super().__init__(sort_code, account_number)
+    super().__init__(sort_code, account_number)   ###  super() -  its parent take information from the source 
     if type(owner) is Person:
       self.owner = owner
     else:

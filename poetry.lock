@@ -1,0 +1,16 @@
+[[package]]
+category = "main"
+description = "a simple example"
+name = "example1"
+optional = false
+python-versions = "*"
+version = "1.0.0"
+
+[metadata]
+content-hash = "db544ccabe0786ebed9ae5cec9690a4d29d90300dd4060b50f9337727ecdfad3"
+python-versions = "^3.8"
+
+[metadata.files]
+example1 = [
+    {file = "example1-1.0.0.tar.gz", hash = "sha256:778a4659cbc6f05392c1605c6b1568659ee26e92aefb7441b59dff18eefba677"},
+]
